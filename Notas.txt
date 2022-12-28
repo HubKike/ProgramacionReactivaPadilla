@@ -1,0 +1,24 @@
+PracticaRxjs
+
+ng g m pages
+ng g c pages/street-page --skip-tests
+
+ng g m shared
+ng g c shared/components/car1 --skip-tests
+ng g c shared/components/car2 --skip-tests
+ng g c shared/components/car3 --skip-tests
+
+ng g s services/traffic-ligth
+
+ng g c pages/anime-page --skip-tests
+
+ng add @angular/material@14.0.0
+
+npm install primeflex
+
+https://docs.api.jikan.moe/#tag/anime/operation/getAnimeSearch
+ng g s services/anime --skip-tests
+
+quikctype
+https://quicktype.io/
+
